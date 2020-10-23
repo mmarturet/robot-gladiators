@@ -88,10 +88,9 @@ var enemyAttack = 12;
                 window.alert("You have lost your robot in battle! Game Over!");
                 break;
               }
-          } else {
-            window.alert(playerName + ' still has ' + playerHealth + ' health left.');
+        
+        window.alert(playerName + ' still has ' + playerHealth + ' health left.');
           }
         }
-      };
       // start the game when the page loads
       startGame();
